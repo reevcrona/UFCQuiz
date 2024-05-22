@@ -58,7 +58,7 @@ let answerCount = 0;
 
 
 button.addEventListener("click", () => {
-    fetch('http://localhost:9000/questions.json')
+    fetch('https://ufcquiz.onrender.com//questions.json')
     .then(res => res.json())
     .then(responseData => {
         data = responseData;
